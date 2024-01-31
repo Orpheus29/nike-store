@@ -1,6 +1,7 @@
 import { navLinks } from '../constants';
 
 import { headerLogo } from '../assets/images';
+import { close } from '../assets/icons';
 
 const Sidebar = ({ setIsMenuOpen }) => {
   const toggleMenu = () => {
@@ -26,7 +27,7 @@ const Sidebar = ({ setIsMenuOpen }) => {
           onClick={toggleMenu}
         >
           <img
-            src='/close.svg'
+            src={close}
             alt='close'
             width={25}
             height={25}
