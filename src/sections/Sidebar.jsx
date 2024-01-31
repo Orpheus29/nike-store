@@ -1,7 +1,7 @@
 import { navLinks } from '../constants';
 
 import { headerLogo } from '../assets/images';
-import { close } from '../assets/icons';
+import { closeIcon } from '../assets/icons';
 
 const Sidebar = ({ setIsMenuOpen }) => {
   const toggleMenu = () => {
@@ -27,7 +27,7 @@ const Sidebar = ({ setIsMenuOpen }) => {
           onClick={toggleMenu}
         >
           <img
-            src={close}
+            src={closeIcon}
             alt='close'
             width={25}
             height={25}

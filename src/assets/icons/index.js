@@ -1,7 +1,7 @@
 import arrowRight from './arrow-right.svg'
 import chevronLeft from './chevron-left.svg'
 import chevronRight from './chevron-right.svg'
-import close from './close.svg'
+import closeIcon from './close-icon.svg'
 import copyrightSign from './copyright-sign.svg'
 import facebook from './facebook.svg'
 import hamburger from './hamburger.svg'
@@ -16,7 +16,7 @@ export {
   arrowRight,
   chevronRight,
   chevronLeft,
-  close,
+  closeIcon,
   copyrightSign,
   facebook,
   hamburger,

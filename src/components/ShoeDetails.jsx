@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 
 import { Dialog, Transition } from '@headlessui/react';
 
-import { close, star } from '../assets/icons';
+import { closeIcon, star } from '../assets/icons';
 
 const ShoeDetails = ({
   imgURL,
@@ -60,7 +60,7 @@ const ShoeDetails = ({
                     className='absolute top-2 right-2 z-10 p-2.5 bg-slate-50 rounded-full outline-none'
                   >
                     <img
-                      src={close}
+                      src={closeIcon}
                       alt='close'
                       width={20}
                       height={20}
