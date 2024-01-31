@@ -32,23 +32,31 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
+    rating: "4.9",
     name: "Nike Air Jordan-01",
     price: "$200.20",
+    description: "The Nike Air Jordan-01 is a premium basketball shoe designed for superior performance and style. It features cutting-edge technology for cushioning and support, making it ideal for both on-court action and casual wear. With its signature design elements and heritage, the Nike Air Jordan-01 represents a timeless symbol of athleticism and fashion-forward culture.",
   },
   {
     imgURL: shoe5,
+    rating: "4.7",
     name: "Nike Air Jordan-10",
     price: "$210.20",
+    description: "The Nike Air Jordan 10, a part of the iconic Air Jordan line, boasts a sleek design and remarkable performance features. Known for its durable construction and innovative cushioning technology, the Air Jordan 10 delivers exceptional comfort and support, making it a favorite choice among basketball enthusiasts and sneaker aficionados alike.",
   },
   {
     imgURL: shoe6,
+    rating: "4.8",
     name: "Nike Air Jordan-100",
     price: "$220.20",
+    description: "The Nike Air Jordan-100 is a stylish and performance-driven basketball shoe designed for athletes and sneaker enthusiasts alike. Combining iconic design elements from the Air Jordan line with modern technology, the Air Jordan-100 offers superior comfort, support, and traction on the court.",
   },
   {
     imgURL: shoe7,
+    rating: "4.6",
     name: "Nike Air Jordan-001",
     price: "$230.20",
+    description: "The Nike Air Jordan-001 is a classic and iconic basketball shoe designed by Nike in collaboration with NBA legend Michael Jordan. Known for its sleek silhouette, innovative technology, and distinctive colorways, the Air Jordan-001 revolutionized the sneaker industry and became a cultural phenomenon.",
   },
 ];
 

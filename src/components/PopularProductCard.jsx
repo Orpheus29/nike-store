@@ -1,9 +1,23 @@
+import { useState } from 'react';
+
+import ShoeDetails from './ShoeDetails';
 import { star } from '../assets/icons';
 
-const PopularProductCard = ({ imgURL, name, price }) => {
+const PopularProductCard = ({ product }) => {
+  const { imgURL, rating, name, price } = product;
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(true);
+  };
+
   return (
     <div className='flex flex-1 flex-col w-full max-sm:w-full'>
-      <div className='cursor-pointer'>
+      <div
+        className='cursor-pointer'
+        onClick={handleClick}
+      >
         <img
           src={imgURL}
           alt='name'
@@ -17,7 +31,7 @@ const PopularProductCard = ({ imgURL, name, price }) => {
             height={24}
           />
           <p className='font-montserrat text-xl leading-normal text-slate-gray'>
-            (4.5)
+            ({rating})
           </p>
         </div>
         <h3 className='mt-2 text-2xl leading-normal font-semibold font-palanquin'>
@@ -27,6 +41,12 @@ const PopularProductCard = ({ imgURL, name, price }) => {
           {price}
         </p>
       </div>
+
+      <ShoeDetails
+        {...product}
+        isOpen={isOpen}
+        closeModal={() => setIsOpen(false)}
+      />
     </div>
   );
 };
