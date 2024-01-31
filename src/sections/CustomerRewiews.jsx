@@ -11,7 +11,7 @@ const CustomerRewiews = () => {
         Hear genuine stories from our satisfied customers about their
         exceptional experiences with us.
       </p>
-      <div className='mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14'>
+      <div className='mt-16 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14'>
         {reviews.map((review) => (
           <ReviewCard
             key={review.customerName}
@@ -22,19 +22,6 @@ const CustomerRewiews = () => {
           />
         ))}
       </div>
-      {/* <div className='mt-11 flex flex-wrap gap-4'>
-          <Button
-            label='Shop now'
-            iconURL={arrowRight}
-          />
-
-          <Button
-            label='Learn more'
-            backgroundColor='bg-white'
-            borderColor='border-slate-gray'
-            textColor='text-slate-gray'
-          />
-        </div> */}
     </section>
   );
 };

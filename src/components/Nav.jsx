@@ -3,7 +3,11 @@ import { navLinks } from '../constants';
 import { headerLogo } from '../assets/images';
 import { hamburger } from '../assets/icons';
 
-const Nav = () => {
+const Nav = ({ setIsMenuOpen }) => {
+  const toggleMenu = () => {
+    setIsMenuOpen(true);
+  };
+
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
@@ -27,7 +31,10 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <div className='hidden max-lg:block'>
+        <div
+          className='hidden max-lg:block cursor-pointer'
+          onClick={toggleMenu}
+        >
           <img
             src={hamburger}
             alt='hanburger'
