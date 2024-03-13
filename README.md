@@ -21,6 +21,8 @@ Navigate to the bottom of the page for contact details and an exclusive invitati
 
 Enjoy an unparalleled shopping experience with Nike! 💃🛍️
 
+![image](https://github.com/Orpheus29/nike-store/assets/110335429/fd52814a-a3ee-45c9-8d34-f9f04c2ebc58)
+
 <h2 align="center">🧙‍♂️Technologies used🧙‍♂️</h2>
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
